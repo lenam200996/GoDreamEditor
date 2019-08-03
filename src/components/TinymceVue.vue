@@ -6,57 +6,57 @@
 
 <script>
    // Import TinyMCE
-    import tinymce from 'tinymce/tinymce';
+    import tinymce from 'godream-tinymce/tinymce';
 
     // A theme is also required
-    import 'tinymce/themes/modern/theme';
+    import 'godream-tinymce/themes/modern/theme';
 
     // Any plugins you want to use has to be imported
-    import 'tinymce/plugins/advlist';
-    import 'tinymce/plugins/wordcount';
-    import 'tinymce/plugins/autolink';
-    import 'tinymce/plugins/autosave';
-    import 'tinymce/plugins/charmap';
-    import 'tinymce/plugins/codesample';
-    import 'tinymce/plugins/contextmenu';
-    import 'tinymce/plugins/emoticons';
-    import 'tinymce/plugins/fullscreen';
-    import 'tinymce/plugins/hr';
-    import 'tinymce/plugins/imagetools';
-    import 'tinymce/plugins/insertdatetime';
-    import 'tinymce/plugins/link';
-    import 'tinymce/plugins/media';
-    import 'tinymce/plugins/noneditable';
-    import 'tinymce/plugins/paste';
-    import 'tinymce/plugins/print';
-    import 'tinymce/plugins/searchreplace';
-    import 'tinymce/plugins/tabfocus';
-    import 'tinymce/plugins/template';
-    import 'tinymce/plugins/textpattern';
-    import 'tinymce/plugins/visualblocks';
-    import 'tinymce/plugins/anchor';
-    import 'tinymce/plugins/autoresize';
-    import 'tinymce/plugins/bbcode';
-    import 'tinymce/plugins/code';
-    import 'tinymce/plugins/colorpicker';
-    import 'tinymce/plugins/directionality';
-    import 'tinymce/plugins/fullpage';
-    import 'tinymce/plugins/help';
-    import 'tinymce/plugins/image';
-    import 'tinymce/plugins/importcss';
-    import 'tinymce/plugins/legacyoutput';
-    import 'tinymce/plugins/lists';
-    import 'tinymce/plugins/nonbreaking';
-    import 'tinymce/plugins/pagebreak';
-    import 'tinymce/plugins/preview';
-    import 'tinymce/plugins/save';
-    import 'tinymce/plugins/spellchecker';
-    import 'tinymce/plugins/table';
-    import 'tinymce/plugins/textcolor';
-    import 'tinymce/plugins/toc';
-    import 'tinymce/plugins/visualchars';
+    import 'godream-tinymce/plugins/advlist';
+    import 'godream-tinymce/plugins/wordcount';
+    import 'godream-tinymce/plugins/autolink';
+    import 'godream-tinymce/plugins/autosave';
+    import 'godream-tinymce/plugins/charmap';
+    import 'godream-tinymce/plugins/codesample';
+    import 'godream-tinymce/plugins/contextmenu';
+    import 'godream-tinymce/plugins/emoticons';
+    import 'godream-tinymce/plugins/fullscreen';
+    import 'godream-tinymce/plugins/hr';
+    import 'godream-tinymce/plugins/imagetools';
+    import 'godream-tinymce/plugins/insertdatetime';
+    import 'godream-tinymce/plugins/link';
+    import 'godream-tinymce/plugins/media';
+    import 'godream-tinymce/plugins/noneditable';
+    import 'godream-tinymce/plugins/paste';
+    import 'godream-tinymce/plugins/print';
+    import 'godream-tinymce/plugins/searchreplace';
+    import 'godream-tinymce/plugins/tabfocus';
+    import 'godream-tinymce/plugins/template';
+    import 'godream-tinymce/plugins/textpattern';
+    import 'godream-tinymce/plugins/visualblocks';
+    import 'godream-tinymce/plugins/anchor';
+    import 'godream-tinymce/plugins/autoresize';
+    import 'godream-tinymce/plugins/bbcode';
+    import 'godream-tinymce/plugins/code';
+    import 'godream-tinymce/plugins/colorpicker';
+    import 'godream-tinymce/plugins/directionality';
+    import 'godream-tinymce/plugins/fullpage';
+    import 'godream-tinymce/plugins/help';
+    import 'godream-tinymce/plugins/image';
+    import 'godream-tinymce/plugins/importcss';
+    import 'godream-tinymce/plugins/legacyoutput';
+    import 'godream-tinymce/plugins/lists';
+    import 'godream-tinymce/plugins/nonbreaking';
+    import 'godream-tinymce/plugins/pagebreak';
+    import 'godream-tinymce/plugins/preview';
+    import 'godream-tinymce/plugins/save';
+    import 'godream-tinymce/plugins/spellchecker';
+    import 'godream-tinymce/plugins/table';
+    import 'godream-tinymce/plugins/textcolor';
+    import 'godream-tinymce/plugins/toc';
+    import 'godream-tinymce/plugins/visualchars';
     
-    import 'tinymce/skins/lightgray/skin.min.css'
+    import 'godream-tinymce/skins/lightgray/skin.min.css'
    
     export default {
         name: 'tinymce',
